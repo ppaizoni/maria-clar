@@ -1,5 +1,3 @@
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
-
 const Navigation = () => {
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -12,9 +10,15 @@ const Navigation = () => {
           {/* Logo */}
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="font-display text-xl md:text-2xl text-foreground hover:text-primary transition-colors"
+            className="flex flex-col items-start group"
           >
-            Maria Clar
+            <span className="font-display text-xl md:text-2xl text-foreground group-hover:text-primary transition-colors">
+              Maria Clar
+            </span>
+            <span className="w-full h-px bg-border group-hover:bg-primary/50 transition-colors my-0.5" />
+            <span className="text-[10px] md:text-xs text-muted-foreground tracking-[0.15em] uppercase font-sans">
+              Psychologische Beratung
+            </span>
           </button>
 
           {/* Desktop Navigation */}
