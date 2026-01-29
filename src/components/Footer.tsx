@@ -1,5 +1,3 @@
-import { Heart } from "lucide-react";
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -12,12 +10,6 @@ const Footer = () => {
             <p className="text-sm text-muted-foreground">
               Zertifizierte Lebens- und Sozialberaterin
             </p>
-          </div>
-
-          <div className="flex items-center gap-1 text-sm text-muted-foreground">
-            <span>Gestaltet mit</span>
-            <Heart className="w-4 h-4 text-berry fill-berry" />
-            <span>in Wien</span>
           </div>
 
           <div className="text-center md:text-right text-sm text-muted-foreground">
