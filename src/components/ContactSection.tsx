@@ -235,12 +235,6 @@ const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="mt-8 pt-6 border-t border-border">
-                <p className="text-sm text-muted-foreground">
-                  <strong className="text-foreground">Erstgespräch:</strong> 30 Minuten, 
-                  kostenlos und unverbindlich
-                </p>
-              </div>
             </div>
           </div>
         </div>
