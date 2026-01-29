@@ -36,12 +36,6 @@ const Navigation = () => {
               Leistungen
             </button>
             <button
-              onClick={() => scrollToSection("zielgruppe")}
-              className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
-            >
-              Für Sie 50+
-            </button>
-            <button
               onClick={() => scrollToSection("kontakt")}
               className="bg-primary text-primary-foreground px-5 py-2 rounded-lg text-sm font-medium hover:bg-primary/90 transition-all"
             >
