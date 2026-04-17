@@ -23,17 +23,17 @@ const HeroSection = () => {
       <div className="relative z-10 container-narrow text-center px-4 py-24 md:py-32">
         <div className="max-w-3xl mx-auto">
           <p className="text-primary font-medium tracking-wide uppercase text-sm md:text-base mb-4 animate-fade-in">
-            Psychologische Beratung
+            Raum für Veränderung
           </p>
-          
+
           <h1 className="font-display text-display-sm md:text-display lg:text-display-lg text-foreground mb-6 animate-fade-in-up">
             Zeit für Veränderung
           </h1>
-          
+
           <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground leading-relaxed mb-4 animate-fade-in-delay">
             Psychologische Beratung für Frauen
           </p>
-          
+
           <p className="text-xl md:text-2xl lg:text-3xl font-display text-foreground mb-10 animate-fade-in-delay">
             in der besten Lebenshälfte
           </p>
@@ -45,12 +45,12 @@ const HeroSection = () => {
               onClick={scrollToContact}
               className="group"
             >
-              Erstgespräch vereinbaren
+              Kennenlerntelefonat vereinbaren
             </Button>
             <Button
               size="lg"
               variant="outline"
-              onClick={() => document.getElementById("ueber-mich")?.scrollIntoView({ behavior: "smooth" })}
+              onClick={() => document.getElementById("leistungen")?.scrollIntoView({ behavior: "smooth" })}
             >
               Mehr erfahren
             </Button>
@@ -61,7 +61,7 @@ const HeroSection = () => {
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <button
-          onClick={() => document.getElementById("ueber-mich")?.scrollIntoView({ behavior: "smooth" })}
+          onClick={() => document.getElementById("leistungen")?.scrollIntoView({ behavior: "smooth" })}
           className="text-primary/60 hover:text-primary transition-colors"
           aria-label="Nach unten scrollen"
         >

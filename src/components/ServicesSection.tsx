@@ -1,34 +1,58 @@
-import { Shield, Compass, Sun, Heart } from "lucide-react";
+import { BookOpen, Target, Flower2, Users, Star, TrendingUp, Shield, Heart, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
-const services = [
+const methods = [
   {
-    icon: Shield,
-    title: "Burnout-Prävention",
-    description:
-      "Erkennen Sie frühzeitig die Warnsignale und lernen Sie, achtsamer mit Ihren Ressourcen umzugehen. Gemeinsam entwickeln wir Strategien für mehr Balance in Ihrem Alltag.",
-    features: ["Stressanalyse", "Ressourcenaufbau", "Selbstfürsorge-Techniken"],
+    icon: BookOpen,
+    title: "Beratung",
+    description: "Professionelle psychologische Beratung in einem sicheren, wertschätzenden Rahmen.",
+    href: "/beratung",
   },
   {
-    icon: Compass,
-    title: "Lebensphase-Coaching",
-    description:
-      "Der Übergang in einen neuen Lebensabschnitt kann herausfordernd sein. Ich begleite Sie dabei, diese Zeit als Chance für Neuorientierung zu nutzen.",
-    features: ["Neuorientierung", "Zielfindung", "Stärkenanalyse"],
+    icon: Target,
+    title: "Coaching",
+    description: "Zielgerichtetes Coaching für persönliche und berufliche Veränderungsprozesse.",
+    href: "/coaching",
   },
   {
-    icon: Sun,
-    title: "Psychologische Beratung",
-    description:
-      "Professionelle Unterstützung bei Lebenskrisen, Beziehungsproblemen oder persönlichen Herausforderungen. Vertraulich und wertschätzend.",
-    features: ["Einzelberatung", "Krisenintervention", "Lösungsorientiert"],
+    icon: Flower2,
+    title: "Meditation",
+    description: "Achtsamkeit und Meditation für innere Ruhe, Klarheit und neue Kraft.",
+    href: "/meditation",
+  },
+];
+
+const topics = [
+  {
+    icon: Star,
+    title: "Persönliche Entwicklung",
+    href: "/persoenliche-entwicklung",
+  },
+  {
+    icon: Users,
+    title: "Beziehung & Kommunikation",
+    href: "/beziehung-kommunikation",
   },
   {
     icon: Heart,
-    title: "Selbstfindung & Achtsamkeit",
-    description:
-      "Entdecken Sie Ihre inneren Ressourcen neu. Lernen Sie, sich selbst besser zu verstehen und liebevoller mit sich umzugehen.",
-    features: ["Selbstreflexion", "Achtsamkeitstraining", "Persönlichkeitsentwicklung"],
+    title: "Selbstwert & innere Stabilität",
+    href: "/selbstwert-innere-stabilitaet",
+  },
+  {
+    icon: TrendingUp,
+    title: "Beruf & Neuorientierung",
+    href: "/beruf-neuorientierung",
+  },
+  {
+    icon: Shield,
+    title: "Krisen & Veränderungsprozesse",
+    href: "/krisen-veraenderungsprozesse",
+  },
+  {
+    icon: Leaf,
+    title: "50+ & Longevity",
+    href: "/frauen-longevity",
   },
 ];
 
@@ -40,6 +64,7 @@ const ServicesSection = () => {
   return (
     <section id="leistungen" className="section-padding bg-background">
       <div className="container-narrow">
+        {/* Section Header */}
         <div className="text-center mb-12 lg:mb-16">
           <p className="text-primary font-medium tracking-wide uppercase text-sm mb-3">
             Meine Leistungen
@@ -48,48 +73,78 @@ const ServicesSection = () => {
             Wie ich Sie unterstützen kann
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Individuelle Beratung, die sich an Ihren Bedürfnissen orientiert. 
+            Individuelle Beratung, die sich an Ihren Bedürfnissen orientiert.
             Jeder Mensch ist einzigartig – und so ist auch jeder Beratungsprozess.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
-          {services.map((service, index) => (
-            <div
+        {/* 3 Method Cards */}
+        <div className="grid md:grid-cols-3 gap-6 mb-16">
+          {methods.map((method, index) => (
+            <Link
               key={index}
-              className="group bg-card p-8 rounded-2xl border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300"
+              to={method.href}
+              className="group bg-card p-8 rounded-2xl border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 flex flex-col items-start"
             >
-              <div className="flex items-start gap-5">
-                <div className="p-4 bg-sage-light rounded-xl group-hover:bg-primary/10 transition-colors">
-                  <service.icon className="w-7 h-7 text-primary" />
-                </div>
-                <div className="flex-1">
-                  <h3 className="font-display text-xl text-foreground mb-3">
-                    {service.title}
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed mb-4">
-                    {service.description}
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    {service.features.map((feature, idx) => (
-                      <span
-                        key={idx}
-                        className="text-xs font-medium px-3 py-1 bg-secondary rounded-full text-secondary-foreground"
-                      >
-                        {feature}
-                      </span>
-                    ))}
-                  </div>
-                </div>
+              <div className="p-4 bg-sage-light rounded-xl group-hover:bg-primary/10 transition-colors mb-5">
+                <method.icon className="w-7 h-7 text-primary" />
               </div>
-            </div>
+              <h3 className="font-display text-xl text-foreground mb-3">
+                {method.title}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed text-sm flex-1">
+                {method.description}
+              </p>
+              <span className="mt-4 text-primary text-sm font-medium group-hover:underline">
+                Mehr erfahren →
+              </span>
+            </Link>
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* Quote */}
+        <div className="bg-card p-8 md:p-12 rounded-2xl border border-border shadow-sm mb-16 text-center">
+          <blockquote>
+            <p className="font-display text-xl md:text-2xl text-foreground leading-relaxed">
+              „Die zweite Lebenshälfte ist nicht das Ende von etwas – sie ist der Anfang von dir."
+            </p>
+          </blockquote>
+        </div>
+
+        {/* 6 Topic Tiles */}
+        <div className="mb-12">
+          <h3 className="font-display text-display-sm text-foreground text-center mb-8">
+            Schwerpunkte
+          </h3>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {topics.map((topic, index) => (
+              <div
+                key={index}
+                className="group bg-card p-6 rounded-2xl border border-border hover:border-primary/30 hover:shadow-md transition-all duration-300"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="p-2 bg-sage-light rounded-lg group-hover:bg-primary/10 transition-colors">
+                    <topic.icon className="w-5 h-5 text-primary" />
+                  </div>
+                  <h4 className="font-semibold text-foreground text-sm leading-tight">
+                    {topic.title}
+                  </h4>
+                </div>
+                <Button size="sm" variant="outline" asChild className="w-full">
+                  <Link to={topic.href}>Mehr erfahren</Link>
+                </Button>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="text-center">
           <Button size="lg" variant="sage" onClick={scrollToContact}>
-            Beratung anfragen
+            Kennenlerntelefonat vereinbaren
           </Button>
+          <p className="text-muted-foreground text-sm mt-3">
+            Das erste Beratungsgespräch ist kostenpflichtig.
+          </p>
         </div>
       </div>
     </section>

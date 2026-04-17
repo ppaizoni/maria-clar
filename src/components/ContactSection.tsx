@@ -10,6 +10,7 @@ const contactSchema = z.object({
   name: z.string().trim().min(2, "Bitte geben Sie Ihren Namen ein").max(100, "Name ist zu lang"),
   email: z.string().trim().email("Bitte geben Sie eine gültige E-Mail-Adresse ein").max(255),
   phone: z.string().optional(),
+  interest: z.string().min(1, "Bitte wählen Sie ein Thema aus"),
   message: z.string().trim().min(10, "Ihre Nachricht sollte mindestens 10 Zeichen haben").max(2000, "Nachricht ist zu lang"),
 });
 
@@ -18,12 +19,13 @@ const ContactSection = () => {
     name: "",
     email: "",
     phone: "",
+    interest: "",
     message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
     if (errors[name]) {
@@ -38,12 +40,12 @@ const ContactSection = () => {
 
     try {
       contactSchema.parse(formData);
-      
+
       // Simulate form submission
       await new Promise((resolve) => setTimeout(resolve, 1000));
-      
+
       toast.success("Vielen Dank für Ihre Nachricht! Ich melde mich bald bei Ihnen.");
-      setFormData({ name: "", email: "", phone: "", message: "" });
+      setFormData({ name: "", email: "", phone: "", interest: "", message: "" });
     } catch (error) {
       if (error instanceof z.ZodError) {
         const fieldErrors: Record<string, string> = {};
@@ -70,8 +72,11 @@ const ContactSection = () => {
             Lassen Sie uns ins Gespräch kommen
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Das Erstgespräch ist unverbindlich und kostenlos. Schreiben Sie mir 
+            Das Kennenlerntelefonat ist unverbindlich und kostenlos. Schreiben Sie mir
             eine Nachricht oder rufen Sie mich an – ich freue mich auf Sie.
+          </p>
+          <p className="text-muted-foreground text-sm mt-2">
+            Das erste Beratungsgespräch ist kostenpflichtig.
           </p>
         </div>
 
@@ -134,6 +139,29 @@ const ContactSection = () => {
               </div>
 
               <div>
+                <label htmlFor="interest" className="block text-sm font-medium text-foreground mb-2">
+                  Ich interessiere mich für: *
+                </label>
+                <select
+                  id="interest"
+                  name="interest"
+                  value={formData.interest}
+                  onChange={handleChange}
+                  className="flex h-10 w-full rounded-md border border-input bg-card px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-foreground"
+                  aria-describedby={errors.interest ? "interest-error" : undefined}
+                >
+                  <option value="">Bitte wählen …</option>
+                  <option value="Beratung">Beratung</option>
+                  <option value="Coaching">Coaching</option>
+                  <option value="Meditation">Meditation</option>
+                  <option value="Allgemeine Anfrage">Allgemeine Anfrage</option>
+                </select>
+                {errors.interest && (
+                  <p id="interest-error" className="text-destructive text-sm mt-1">{errors.interest}</p>
+                )}
+              </div>
+
+              <div>
                 <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
                   Ihre Nachricht *
                 </label>
@@ -184,8 +212,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Telefon</p>
-                    <a 
-                      href="tel:+4312345678" 
+                    <a
+                      href="tel:+4312345678"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
                       +43 1 234 56 78
@@ -199,8 +227,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">E-Mail</p>
-                    <a 
-                      href="mailto:beratung@mariaclar.at" 
+                    <a
+                      href="mailto:beratung@mariaclar.at"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
                       beratung@mariaclar.at
@@ -234,7 +262,6 @@ const ContactSection = () => {
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
