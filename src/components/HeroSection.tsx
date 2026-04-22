@@ -31,7 +31,7 @@ const HeroSection = () => {
           </p>
 
           <p className="text-xl md:text-2xl lg:text-3xl font-display text-foreground mb-10 animate-fade-in-delay">
-            für berufliche und zwischenmenschliche Herausforderungen
+            für persönliche, berufliche und zwischenmenschliche Herausforderungen
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delay">
