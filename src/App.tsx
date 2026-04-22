@@ -15,6 +15,8 @@ import SelbstwertInnereStabilitaet from "./pages/SelbstwertInnereStabilitaet";
 import BerufNeuorientierung from "./pages/BerufNeuorientierung";
 import KrisenVeraenderungsprozesse from "./pages/KrisenVeraenderungsprozesse";
 import FrauenLongevity from "./pages/FrauenLongevity";
+import Impressum from "./pages/Impressum";
+import Datenschutz from "./pages/Datenschutz";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +38,8 @@ const App = () => (
           <Route path="/beruf-neuorientierung" element={<BerufNeuorientierung />} />
           <Route path="/krisen-veraenderungsprozesse" element={<KrisenVeraenderungsprozesse />} />
           <Route path="/frauen-longevity" element={<FrauenLongevity />} />
+          <Route path="/impressum" element={<Impressum />} />
+          <Route path="/datenschutz" element={<Datenschutz />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

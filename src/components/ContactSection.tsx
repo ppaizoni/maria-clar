@@ -41,11 +41,24 @@ const ContactSection = () => {
     try {
       contactSchema.parse(formData);
 
-      // Simulate form submission
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          access_key: "92e9864f-83e4-4979-b7dd-559d6abacc96",
+          subject: `Neue Anfrage von ${formData.name} – ${formData.interest}`,
+          ...formData,
+        }),
+      });
 
-      toast.success("Vielen Dank für Ihre Nachricht! Ich melde mich bald bei Ihnen.");
-      setFormData({ name: "", email: "", phone: "", interest: "", message: "" });
+      const data = await response.json();
+
+      if (data.success) {
+        toast.success("Vielen Dank für Ihre Nachricht! Ich melde mich bald bei Ihnen.");
+        setFormData({ name: "", email: "", phone: "", interest: "", message: "" });
+      } else {
+        toast.error("Beim Senden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.");
+      }
     } catch (error) {
       if (error instanceof z.ZodError) {
         const fieldErrors: Record<string, string> = {};
@@ -55,6 +68,8 @@ const ContactSection = () => {
           }
         });
         setErrors(fieldErrors);
+      } else {
+        toast.error("Beim Senden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.");
       }
     } finally {
       setIsSubmitting(false);

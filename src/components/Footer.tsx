@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -15,8 +17,8 @@ const Footer = () => {
           <div className="text-center md:text-right text-sm text-muted-foreground">
             <p>© {currentYear} Maria Clar</p>
             <div className="flex gap-4 mt-1 justify-center md:justify-end">
-              <a href="#" className="hover:text-foreground transition-colors">Impressum</a>
-              <a href="#" className="hover:text-foreground transition-colors">Datenschutz</a>
+              <Link to="/impressum" className="hover:text-foreground transition-colors">Impressum</Link>
+              <Link to="/datenschutz" className="hover:text-foreground transition-colors">Datenschutz</Link>
             </div>
             <p className="mt-2">
               Designed by{" "}
