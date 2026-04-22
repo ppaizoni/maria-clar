@@ -33,26 +33,19 @@ const UeberMich = () => {
 
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Mein Name ist <strong className="text-foreground">Maria Clar</strong> und ich bin
-                  zertifizierte Lebens- und Sozialberaterin sowie ausgebildete Mediatorin und Juristin.
-                  Seit vielen Jahren begleite ich Menschen – insbesondere Frauen – durch herausfordernde
-                  Lebensphasen.
+                  Ich begleite Menschen in herausfordernden Lebensphasen – einfühlsam, wertschätzend und auf Augenhöhe.
                 </p>
                 <p>
-                  Mit viel Empathie und Verständnis unterstütze ich Sie dabei, neue Perspektiven
-                  zu entwickeln und Ihren ganz persönlichen Weg zu finden. Ob Lebenskrise,
-                  beruflicher Neuanfang oder die Suche nach mehr Selbstfürsorge – gemeinsam
-                  finden wir Lösungen, die zu Ihnen passen.
+                  In meiner Arbeit verbinde ich psychologische Beratung mit Coaching und einem ganzheitlichen Blick auf das Leben. Jeder Mensch bringt seine eigene Geschichte, seine Ressourcen und seine Fragen mit – genau dort setze ich an. Mir ist es wichtig, einen geschützten Raum zu schaffen, in dem Klarheit entstehen darf, neue Perspektiven sichtbar werden und Entwicklung möglich ist.
                 </p>
                 <p>
-                  In einem geschützten Rahmen können Sie offen sprechen und werden gehört.
-                  Denn manchmal braucht es einen neutralen Blick von außen, um die eigenen
-                  Stärken wieder zu entdecken.
+                  Meine Schwerpunkte liegen in den Bereichen Beziehung, persönliche Entwicklung und berufliche Orientierung. Ich unterstütze dabei, eigene Bedürfnisse besser zu verstehen, Entscheidungen zu treffen und neue Wege zu gehen – in deinem Tempo und mit Blick auf das, was für dich stimmig ist.
                 </p>
                 <p>
-                  Mein juristischer und mediatorischer Hintergrund gibt mir ein besonderes
-                  Verständnis für komplexe Lebens- und Konfliktsituationen. Ich begleite Sie
-                  ganzheitlich – mit Herz und Verstand.
+                  Ein besonderes Anliegen ist mir auch die Begleitung von Frauen in Zeiten hormoneller Veränderung. Gerade in den Wechseljahren können innere und äußere Herausforderungen auftreten, die Raum für Verständnis, Stabilität und Neuorientierung brauchen.
+                </p>
+                <p>
+                  Was du bei mir findest: ein offenes Ohr, Klarheit in komplexen Situationen und eine achtsame Begleitung auf deinem Weg.
                 </p>
               </div>
             </div>
