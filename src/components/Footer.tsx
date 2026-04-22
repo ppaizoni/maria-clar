@@ -18,6 +18,17 @@ const Footer = () => {
               <a href="#" className="hover:text-foreground transition-colors">Impressum</a>
               <a href="#" className="hover:text-foreground transition-colors">Datenschutz</a>
             </div>
+            <p className="mt-2">
+              Designed by{" "}
+              <a
+                href="https://www.padigital.at/webdesign"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-foreground transition-colors"
+              >
+                PA Digital in Graz
+              </a>
+            </p>
           </div>
         </div>
       </div>
