@@ -20,10 +20,7 @@ const FrauenLongevity = () => {
             <p className="text-primary font-medium tracking-wide uppercase text-sm mb-3">Schwerpunkt</p>
             <h1 className="font-display text-display-sm md:text-display text-foreground mb-6">50+ & Longevity</h1>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
-              <p>Die zweite Lebenshälfte ist nicht das Ende von etwas – sie ist der Anfang von dir. Mit 50 und mehr bringen Sie eine Fülle an Erfahrungen, Weisheit und Stärke mit, die in jungen Jahren noch nicht vorhanden waren. Diese Phase ist eine der reichsten und bedeutsamsten des Lebens – wenn wir sie bewusst gestalten.</p>
-              <p>Longevity – ein langes, vitales und erfülltes Leben – beginnt nicht mit dem richtigen Supplement oder dem perfekten Training. Sie beginnt mit einem tiefen Verständnis dafür, wer Sie sind, was Ihnen wirklich wichtig ist und wie Sie Ihre Zeit und Energie so einsetzen, dass Sie blühen können.</p>
-              <p>In der Beratung begleite ich Frauen ab 50 dabei, diese Lebensphase mit Freude, Klarheit und innerer Stärke zu gestalten. Wir schauen gemeinsam auf körperliche Veränderungen, neue Lebensprioritäten, Selbstfürsorge und die Frage: Was möchte ich in den nächsten Jahren wirklich erleben und gestalten?</p>
-              <p>Es ist nie zu spät, die zu werden, die Sie immer sein wollten. Die beste Zeit dafür ist jetzt.</p>
+              <p>Mit 50+ beginnt oft eine Phase, in der sich Fragen nach Sinn, Gesundheit und dem eigenen Lebensweg neu stellen. Was bleibt, was verändert sich – und was will ich für die kommenden Jahre wirklich? In der Beratung unterstütze ich dich dabei, diese Lebensphase bewusst zu gestalten, Ressourcen zu stärken und einen Umgang mit Veränderung zu finden, der dir entspricht.</p>
             </div>
           </div>
           <div className="grid sm:grid-cols-3 gap-6 mt-12">

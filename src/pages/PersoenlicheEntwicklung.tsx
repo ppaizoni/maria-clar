@@ -20,9 +20,7 @@ const PersoenlicheEntwicklung = () => {
             <p className="text-primary font-medium tracking-wide uppercase text-sm mb-3">Schwerpunkt</p>
             <h1 className="font-display text-display-sm md:text-display text-foreground mb-6">Persönliche Entwicklung</h1>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
-              <p>Persönliche Entwicklung ist ein lebenslanges Abenteuer – und in der zweiten Lebenshälfte gewinnt sie eine ganz besondere Tiefe. Mit den Erfahrungen und der Reife, die Sie mitbringen, haben Sie die beste Voraussetzung, um wirklich authentisch zu wachsen.</p>
-              <p>Gemeinsam erkunden wir, wer Sie heute sind und wer Sie sein möchten. Welche Werte leiten Sie? Welche Seiten Ihrer Persönlichkeit wurden vielleicht lange zurückgestellt? Persönliche Entwicklung bedeutet nicht, sich zu verändern, um anderen zu gefallen – sondern immer mehr Sie selbst zu werden.</p>
-              <p>In unserem gemeinsamen Prozess arbeiten wir mit Methoden der Selbstreflexion, Stärkenanalyse und Zielfindung. Ich begleite Sie dabei, Ihre inneren Ressourcen zu entdecken und gezielt einzusetzen – für ein Leben, das wirklich zu Ihnen passt.</p>
+              <p>Manchmal spüren wir, dass wir uns weiterentwickeln möchten, wissen aber nicht genau, wie. In der Beratung unterstütze ich dich dabei, dich selbst besser zu verstehen, deine Bedürfnisse und Werte zu erkennen und neue Klarheit für deinen Lebensweg zu gewinnen. Schritt für Schritt entsteht so mehr Orientierung und innere Sicherheit.</p>
             </div>
           </div>
           <div className="grid sm:grid-cols-3 gap-6 mt-12">

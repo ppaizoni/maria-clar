@@ -20,9 +20,7 @@ const KrisenVeraenderungsprozesse = () => {
             <p className="text-primary font-medium tracking-wide uppercase text-sm mb-3">Schwerpunkt</p>
             <h1 className="font-display text-display-sm md:text-display text-foreground mb-6">Krisen & Veränderungsprozesse</h1>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
-              <p>Krisen gehören zum Leben – und sie tragen oft die Keime für tiefgreifende Veränderungen in sich. Ob Verlust, Trennung, Krankheit, ein unerwarteter Lebenseinschnitt oder schlicht das Gefühl, den Boden unter den Füßen verloren zu haben: In solchen Momenten brauchen wir Unterstützung und einen sicheren Anker.</p>
-              <p>In der Krisenberatung biete ich Ihnen genau das: Einen geschützten Raum, in dem Sie das Erlebte verarbeiten können, und professionelle Begleitung, die Ihnen hilft, Schritt für Schritt wieder Stabilität und Orientierung zu finden. Ich begleite Sie durch den Schmerz hindurch – bis Sie wieder klarer sehen.</p>
-              <p>Veränderungsprozesse sind oft herausfordernd, auch wenn sie bewusst gewählt sind. Gemeinsam entwickeln wir Strategien, wie Sie Übergänge konstruktiv gestalten und die darin liegenden Chancen nutzen können – für ein Leben, das auch nach der Krise bedeutsam und erfüllt ist.</p>
+              <p>Lebenskrisen, Umbrüche oder belastende Situationen können uns aus dem Gleichgewicht bringen. In diesen Phasen biete ich dir einen sicheren Raum, um Gedanken zu ordnen, Gefühle zu verstehen und neue Perspektiven zu entwickeln. Ziel ist es, Stabilität zu finden und gestärkt aus der Situation hervorzugehen.</p>
             </div>
           </div>
           <div className="grid sm:grid-cols-3 gap-6 mt-12">

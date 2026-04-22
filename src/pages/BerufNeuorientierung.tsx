@@ -20,9 +20,7 @@ const BerufNeuorientierung = () => {
             <p className="text-primary font-medium tracking-wide uppercase text-sm mb-3">Schwerpunkt</p>
             <h1 className="font-display text-display-sm md:text-display text-foreground mb-6">Beruf & Neuorientierung</h1>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
-              <p>Der Beruf prägt unsere Identität – und wenn sich berufliche Wege verändern, stellt das viele grundlegende Fragen. Ob Burnout-Erschöpfung, der Wunsch nach einem Neubeginn, der Übergang in den Ruhestand oder die Suche nach mehr Sinnhaftigkeit: in der zweiten Lebenshälfte nehmen berufliche Veränderungen oft eine besondere Dimension an.</p>
-              <p>In der Beratung und im Coaching begleite ich Sie durch berufliche Übergangsphasen mit Klarheit und Orientierung. Wir analysieren gemeinsam, was Sie erfüllt und was Sie auslaugt, welche Ihrer Stärken noch ungenutzt sind und welche neuen Wege zu Ihnen passen könnten.</p>
-              <p>Burnout-Prävention ist dabei ein wichtiges Thema: Ich helfe Ihnen, die Warnsignale frühzeitig zu erkennen und Strategien für nachhaltige Balance zu entwickeln – damit Sie langfristig gesund, motiviert und erfüllt arbeiten können.</p>
+              <p>Berufliche Fragen können belastend sein – ob es um Unzufriedenheit, Veränderungswünsche oder neue Perspektiven geht. Gemeinsam erarbeiten wir Klarheit über deine Ziele, Stärken und Möglichkeiten, damit du stimmige Entscheidungen treffen und deinen eigenen beruflichen Weg gehen kannst.</p>
             </div>
           </div>
           <div className="grid sm:grid-cols-3 gap-6 mt-12">

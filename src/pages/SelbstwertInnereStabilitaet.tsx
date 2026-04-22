@@ -20,9 +20,7 @@ const SelbstwertInnereStabilitaet = () => {
             <p className="text-primary font-medium tracking-wide uppercase text-sm mb-3">Schwerpunkt</p>
             <h1 className="font-display text-display-sm md:text-display text-foreground mb-6">Selbstwert & innere Stabilität</h1>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
-              <p>Ein stabiles Selbstwertgefühl ist die Grundlage für ein erfülltes Leben. Doch viele Frauen haben gelernt, ihre eigenen Bedürfnisse zurückzustellen und die Erwartungen anderer zu erfüllen – bis irgendwann die Frage auftaucht: Wer bin ich eigentlich, wenn ich nicht für andere da bin?</p>
-              <p>Selbstwert bedeutet nicht Selbstüberschätzung oder Gleichgültigkeit anderen gegenüber. Es bedeutet, sich selbst mit derselben Freundlichkeit und Wertschätzung zu begegnen, die man anderen entgegenbringt. Innere Stabilität wächst, wenn wir uns selbst besser kennen und akzeptieren.</p>
-              <p>In der Beratung arbeiten wir daran, alte, einschränkende Glaubenssätze zu erkennen und zu verändern, ein gesundes Verhältnis zu sich selbst aufzubauen und innere Ressourcen zu stärken. Schritt für Schritt entstehen so eine tiefere Selbstachtung und eine unerschütterliche innere Mitte.</p>
+              <p>Ein stabiler Selbstwert ist die Grundlage für viele Lebensbereiche. Ich begleite dich dabei, Selbstzweifel zu erkennen, innere Blockaden zu lösen und einen liebevolleren Umgang mit dir selbst zu entwickeln. So kannst du mehr Vertrauen in dich gewinnen und deine Stärken bewusst nutzen.</p>
             </div>
           </div>
           <div className="grid sm:grid-cols-3 gap-6 mt-12">

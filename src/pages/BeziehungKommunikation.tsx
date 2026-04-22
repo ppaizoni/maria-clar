@@ -20,9 +20,7 @@ const BeziehungKommunikation = () => {
             <p className="text-primary font-medium tracking-wide uppercase text-sm mb-3">Schwerpunkt</p>
             <h1 className="font-display text-display-sm md:text-display text-foreground mb-6">Beziehung & Kommunikation</h1>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
-              <p>Beziehungen verändern sich – und das ist völlig normal. In der zweiten Lebenshälfte stehen viele Frauen vor der Frage, wie sie ihre Partnerschaften, Familienbeziehungen und Freundschaften neu gestalten möchten. Wenn die Kinder das Haus verlassen, wenn sich Rollen verschieben oder wenn das Miteinander sich verändert hat, braucht es manchmal frischen Wind und neue Perspektiven.</p>
-              <p>Kommunikation ist das Herzstück jeder Beziehung. Oft sind es alte Muster und unausgesprochene Erwartungen, die zu Missverständnissen und Distanz führen. In der Beratung lernen Sie, Ihre eigenen Bedürfnisse klar auszudrücken, aktiv zuzuhören und Konflikte konstruktiv zu lösen.</p>
-              <p>Ob es um die Partnerschaft, die Beziehung zu erwachsenen Kindern, die Familie oder das soziale Umfeld geht – ich begleite Sie dabei, authentische und erfüllende Verbindungen zu gestalten und zu pflegen.</p>
+              <p>Beziehungen können bereichernd, aber auch herausfordernd sein. Gemeinsam schauen wir auf wiederkehrende Muster, unausgesprochene Erwartungen und Kommunikationsweisen. Ziel ist es, Verständnis zu fördern, Konflikte konstruktiv zu lösen und Beziehungen bewusster und erfüllender zu gestalten.</p>
             </div>
           </div>
           <div className="grid sm:grid-cols-3 gap-6 mt-12">
