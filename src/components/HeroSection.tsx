@@ -22,20 +22,16 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container-narrow text-center px-4 py-24 md:py-32">
         <div className="max-w-3xl mx-auto">
-          <p className="text-primary font-medium tracking-wide uppercase text-sm md:text-base mb-4 animate-fade-in">
-            Raum für Veränderung
-          </p>
-
           <h1 className="font-display text-display-sm md:text-display lg:text-display-lg text-foreground mb-6 animate-fade-in-up">
-            Zeit für Veränderung
+            Zeit für Klarheit und Entwicklung
           </h1>
 
           <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground leading-relaxed mb-4 animate-fade-in-delay">
-            Psychologische Beratung für Frauen
+            Psychologische Beratung, Meditation und Coaching
           </p>
 
           <p className="text-xl md:text-2xl lg:text-3xl font-display text-foreground mb-10 animate-fade-in-delay">
-            in der besten Lebenshälfte
+            für berufliche und zwischenmenschliche Herausforderungen
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delay">
