@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-card border-t border-border py-10">
       <div className="container-narrow">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
           <div className="text-center md:text-left">
             <p className="font-display text-xl text-foreground mb-1">Maria Clar</p>
             <p className="text-sm text-muted-foreground">

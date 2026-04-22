@@ -20,21 +20,21 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container-narrow text-center px-4 py-24 md:py-32">
+      <div className="relative z-10 container-narrow text-center px-4 py-20 md:py-32">
         <div className="max-w-3xl mx-auto">
-          <h1 className="font-display text-display-sm md:text-display lg:text-display-lg text-foreground mb-6 animate-fade-in-up">
+          <h1 className="font-display text-3xl sm:text-display-sm md:text-display lg:text-display-lg text-foreground mb-5 animate-fade-in-up">
             Zeit für Klarheit und Entwicklung
           </h1>
 
-          <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground leading-relaxed mb-4 animate-fade-in-delay">
+          <p className="text-base md:text-xl lg:text-2xl text-muted-foreground leading-relaxed mb-3 animate-fade-in-delay">
             Psychologische Beratung, Meditation und Coaching
           </p>
 
-          <p className="text-xl md:text-2xl lg:text-3xl font-display text-foreground mb-10 animate-fade-in-delay">
+          <p className="text-lg md:text-2xl lg:text-3xl font-display text-foreground mb-8 animate-fade-in-delay">
             für persönliche, berufliche und zwischenmenschliche Herausforderungen
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delay">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center animate-fade-in-delay">
             <Button
               size="lg"
               variant="sage"

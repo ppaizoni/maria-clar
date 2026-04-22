@@ -4,7 +4,7 @@ const AboutSection = () => {
   return (
     <section id="ueber-mich" className="section-padding gradient-warm">
       <div className="container-narrow">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Text Content */}
           <div>
             <p className="text-primary font-medium tracking-wide uppercase text-sm mb-3">

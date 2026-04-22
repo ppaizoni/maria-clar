@@ -125,7 +125,7 @@
   }
 
   .container-narrow {
-    @apply mx-auto max-w-5xl px-4;
+    @apply mx-auto max-w-5xl px-4 sm:px-6;
   }
 
   .gradient-sage {
