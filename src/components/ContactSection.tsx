@@ -84,15 +84,15 @@ const ContactSection = () => {
             Kontakt
           </p>
           <h2 className="font-display text-display-sm md:text-display text-foreground mb-4">
-            Lassen Sie uns ins Gespräch kommen
+            Schön, dass Sie hier sind
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Schreiben Sie mir eine Nachricht – ich freue mich darauf,
-            Sie kennenzulernen.
+            Hinterlassen Sie mir ein paar Zeilen zu Ihrem Anliegen –
+            ich melde mich bald bei Ihnen zurück.
           </p>
           <p className="text-muted-foreground text-sm mt-3 max-w-2xl mx-auto">
-            Das Kennenlerntelefonat ist unverbindlich und kostenlos;
-            das erste Beratungsgespräch ist kostenpflichtig.
+            Das Kennenlerntelefonat ist unverbindlich und kostenlos,
+            das erste Beratungsgespräch kostenpflichtig.
           </p>
         </div>
 
