@@ -26,17 +26,10 @@ const Impressum = () => {
               <p className="font-semibold text-foreground">Angaben gemäß § 5 ECG</p>
               <p>Mag. Maria Clar</p>
               <p>Lebens- und Sozialberaterin, Mediatorin</p>
-              <p>Musterstraße 12<br />1010 Wien</p>
-              <p>
-                Telefon:{" "}
-                <a href="tel:+4312345678" className="hover:text-foreground transition-colors">
-                  +43 1 234 56 78
-                </a>
-              </p>
-              <p>
+              <p>Dürrgrabenweg 21<br />8045 Graz</p>
                 E-Mail:{" "}
-                <a href="mailto:beratung@mariaclar.at" className="hover:text-foreground transition-colors">
-                  beratung@mariaclar.at
+                <a href="mailto:info@mariaclar.at" className="hover:text-foreground transition-colors">
+                  info@mariaclar.at
                 </a>
               </p>
             </div>

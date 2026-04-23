@@ -220,21 +220,6 @@ const ContactSection = () => {
                 So erreichen Sie mich
               </h3>
 
-              <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="p-3 bg-sage-light rounded-lg">
-                    <Phone className="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="font-medium text-foreground">Telefon</p>
-                    <a
-                      href="tel:+4312345678"
-                      className="text-muted-foreground hover:text-primary transition-colors"
-                    >
-                      +43 1 234 56 78
-                    </a>
-                  </div>
-                </div>
 
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-sage-light rounded-lg">
@@ -243,10 +228,10 @@ const ContactSection = () => {
                   <div>
                     <p className="font-medium text-foreground">E-Mail</p>
                     <a
-                      href="mailto:beratung@mariaclar.at"
+                      href="mailto:info@mariaclar.at"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      beratung@mariaclar.at
+                      info@mariaclar.at
                     </a>
                   </div>
                 </div>
@@ -258,8 +243,8 @@ const ContactSection = () => {
                   <div>
                     <p className="font-medium text-foreground">Praxis</p>
                     <p className="text-muted-foreground">
-                      Musterstraße 12<br />
-                      1010 Wien
+                      Dürrgrabenweg 21<br />
+                      8045 Graz
                     </p>
                   </div>
                 </div>

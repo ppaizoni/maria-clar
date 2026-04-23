@@ -27,8 +27,8 @@ const Datenschutz = () => {
               <p className="font-semibold text-foreground">1. Verantwortliche</p>
               <p>
                 Mag. Maria Clar<br />
-                Musterstraße 12, 1010 Wien<br />
-                E-Mail: <a href="mailto:beratung@mariaclar.at" className="hover:text-foreground transition-colors">beratung@mariaclar.at</a>
+                Dürrgrabenweg 21, 8045 Graz<br />
+                E-Mail: <a href="mailto:info@mariaclar.at" className="hover:text-foreground transition-colors">info@mariaclar.at</a>
               </p>
             </div>
 
@@ -105,8 +105,8 @@ const Datenschutz = () => {
               </ul>
               <p className="mt-2">
                 Zur Ausübung Ihrer Rechte wenden Sie sich bitte an:{" "}
-                <a href="mailto:beratung@mariaclar.at" className="hover:text-foreground transition-colors">
-                  beratung@mariaclar.at
+                <a href="mailto:info@mariaclar.at" className="hover:text-foreground transition-colors">
+                  info@mariaclar.at
                 </a>
               </p>
             </div>
