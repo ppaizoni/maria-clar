@@ -27,6 +27,7 @@ const Impressum = () => {
               <p>Mag. Maria Clar</p>
               <p>Lebens- und Sozialberaterin, Mediatorin</p>
               <p>Dürrgrabenweg 21<br />8045 Graz</p>
+              <p>
                 E-Mail:{" "}
                 <a href="mailto:info@mariaclar.at" className="hover:text-foreground transition-colors">
                   info@mariaclar.at

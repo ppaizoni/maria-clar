@@ -219,8 +219,7 @@ const ContactSection = () => {
               <h3 className="font-display text-xl text-foreground mb-6">
                 So erreichen Sie mich
               </h3>
-
-
+              <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-sage-light rounded-lg">
                     <Mail className="w-5 h-5 text-primary" />
@@ -261,6 +260,7 @@ const ContactSection = () => {
                     </p>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>
