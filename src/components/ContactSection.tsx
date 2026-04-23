@@ -87,11 +87,12 @@ const ContactSection = () => {
             Lassen Sie uns ins Gespräch kommen
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Das Kennenlerntelefonat ist unverbindlich und kostenlos. Schreiben Sie mir
-            eine Nachricht oder rufen Sie mich an – ich freue mich auf Sie.
+            Schreiben Sie mir eine Nachricht – ich freue mich darauf,
+            Sie kennenzulernen.
           </p>
-          <p className="text-muted-foreground text-sm mt-2">
-            Das erste Beratungsgespräch ist kostenpflichtig.
+          <p className="text-muted-foreground text-sm mt-3 max-w-2xl mx-auto">
+            Das Kennenlerntelefonat ist unverbindlich und kostenlos;
+            das erste Beratungsgespräch ist kostenpflichtig.
           </p>
         </div>
 
