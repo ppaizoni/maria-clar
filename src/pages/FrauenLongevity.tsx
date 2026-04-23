@@ -20,7 +20,7 @@ const FrauenLongevity = () => {
             <p className="text-primary font-medium tracking-wide uppercase text-sm mb-3">Schwerpunkt</p>
             <h1 className="font-display text-display-sm md:text-display text-foreground mb-6">50+ & Longevity</h1>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
-              <p>Mit 50+ beginnt oft eine Phase, in der sich Fragen nach Sinn, Gesundheit und dem eigenen Lebensweg neu stellen. Was bleibt, was verändert sich – und was will ich für die kommenden Jahre wirklich? In der Beratung unterstütze ich dich dabei, diese Lebensphase bewusst zu gestalten, Ressourcen zu stärken und einen Umgang mit Veränderung zu finden, der dir entspricht.</p>
+              <p>Mit 50+ beginnt oft eine Phase, in der sich Fragen nach Sinn, Gesundheit und dem eigenen Lebensweg neu stellen. Was bleibt, was verändert sich – und was will ich für die kommenden Jahre wirklich? In der Beratung unterstütze ich Sie dabei, diese Lebensphase bewusst zu gestalten, Ressourcen zu stärken und einen Umgang mit Veränderung zu finden, der Ihnen entspricht.</p>
             </div>
           </div>
           <div className="grid sm:grid-cols-3 gap-6 mt-12">
@@ -42,7 +42,7 @@ const FrauenLongevity = () => {
             <h3 className="font-display text-xl text-foreground mb-3">Bereit für den ersten Schritt?</h3>
             <p className="text-muted-foreground mb-6">Das Kennenlerntelefonat ist unverbindlich und kostenlos. Das erste Beratungsgespräch ist kostenpflichtig.</p>
             <Button size="lg" variant="sage" asChild>
-              <a href="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</a>
+              <Link to="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</Link>
             </Button>
           </div>
         </div>

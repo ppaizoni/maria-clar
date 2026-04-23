@@ -39,13 +39,13 @@ const UeberMich = () => {
                   In meiner Arbeit verbinde ich psychologische Beratung mit Coaching und einem ganzheitlichen Blick auf das Leben. Jeder Mensch bringt seine eigene Geschichte, seine Ressourcen und seine Fragen mit – genau dort setze ich an. Mir ist es wichtig, einen geschützten Raum zu schaffen, in dem Klarheit entstehen darf, neue Perspektiven sichtbar werden und Entwicklung möglich ist.
                 </p>
                 <p>
-                  Meine Schwerpunkte liegen in den Bereichen Beziehung, persönliche Entwicklung und berufliche Orientierung. Ich unterstütze dabei, eigene Bedürfnisse besser zu verstehen, Entscheidungen zu treffen und neue Wege zu gehen – in deinem Tempo und mit Blick auf das, was für dich stimmig ist.
+                  Meine Schwerpunkte liegen in den Bereichen Beziehung, persönliche Entwicklung und berufliche Orientierung. Ich unterstütze Sie dabei, eigene Bedürfnisse besser zu verstehen, Entscheidungen zu treffen und neue Wege zu gehen – in Ihrem Tempo und mit Blick auf das, was für Sie stimmig ist.
                 </p>
                 <p>
                   Ein besonderes Anliegen ist mir auch die Begleitung von Frauen in Zeiten hormoneller Veränderung. Gerade in den Wechseljahren können innere und äußere Herausforderungen auftreten, die Raum für Verständnis, Stabilität und Neuorientierung brauchen.
                 </p>
                 <p>
-                  Was du bei mir findest: ein offenes Ohr, Klarheit in komplexen Situationen und eine achtsame Begleitung auf deinem Weg.
+                  Was Sie bei mir finden: ein offenes Ohr, Klarheit in komplexen Situationen und eine achtsame Begleitung auf Ihrem Weg.
                 </p>
               </div>
             </div>
@@ -106,7 +106,7 @@ const UeberMich = () => {
               Das erste Beratungsgespräch ist kostenpflichtig.
             </p>
             <Button size="lg" variant="sage" asChild>
-              <a href="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</a>
+              <Link to="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</Link>
             </Button>
           </div>
         </div>

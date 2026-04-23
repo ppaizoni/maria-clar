@@ -20,7 +20,7 @@ const PersoenlicheEntwicklung = () => {
             <p className="text-primary font-medium tracking-wide uppercase text-sm mb-3">Schwerpunkt</p>
             <h1 className="font-display text-display-sm md:text-display text-foreground mb-6">Persönliche Entwicklung</h1>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
-              <p>Manchmal spüren wir, dass wir uns weiterentwickeln möchten, wissen aber nicht genau, wie. In der Beratung unterstütze ich dich dabei, dich selbst besser zu verstehen, deine Bedürfnisse und Werte zu erkennen und neue Klarheit für deinen Lebensweg zu gewinnen. Schritt für Schritt entsteht so mehr Orientierung und innere Sicherheit.</p>
+              <p>Manchmal spüren wir, dass wir uns weiterentwickeln möchten, wissen aber nicht genau, wie. In der Beratung unterstütze ich Sie dabei, sich selbst besser zu verstehen, Ihre Bedürfnisse und Werte zu erkennen und neue Klarheit für Ihren Lebensweg zu gewinnen. Schritt für Schritt entsteht so mehr Orientierung und innere Sicherheit.</p>
             </div>
           </div>
           <div className="grid sm:grid-cols-3 gap-6 mt-12">
@@ -42,7 +42,7 @@ const PersoenlicheEntwicklung = () => {
             <h3 className="font-display text-xl text-foreground mb-3">Bereit für den ersten Schritt?</h3>
             <p className="text-muted-foreground mb-6">Das Kennenlerntelefonat ist unverbindlich und kostenlos. Das erste Beratungsgespräch ist kostenpflichtig.</p>
             <Button size="lg" variant="sage" asChild>
-              <a href="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</a>
+              <Link to="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</Link>
             </Button>
           </div>
         </div>

@@ -42,7 +42,7 @@ const BeziehungKommunikation = () => {
             <h3 className="font-display text-xl text-foreground mb-3">Bereit für den ersten Schritt?</h3>
             <p className="text-muted-foreground mb-6">Das Kennenlerntelefonat ist unverbindlich und kostenlos. Das erste Beratungsgespräch ist kostenpflichtig.</p>
             <Button size="lg" variant="sage" asChild>
-              <a href="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</a>
+              <Link to="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</Link>
             </Button>
           </div>
         </div>

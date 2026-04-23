@@ -77,7 +77,7 @@ const Meditation = () => {
               Das erste Beratungsgespräch ist kostenpflichtig.
             </p>
             <Button size="lg" variant="sage" asChild>
-              <a href="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</a>
+              <Link to="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</Link>
             </Button>
           </div>
         </div>

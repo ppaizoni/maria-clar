@@ -106,7 +106,7 @@ const ServicesSection = () => {
         <div className="bg-card p-8 md:p-12 rounded-2xl border border-border shadow-sm mb-16 text-center">
           <blockquote>
             <p className="font-display text-xl md:text-2xl text-foreground leading-relaxed">
-              „Die zweite Lebenshälfte ist nicht das Ende von etwas – sie ist der Anfang von dir."
+              „Die zweite Lebenshälfte ist nicht das Ende von etwas – sie ist der Anfang von Ihnen."
             </p>
           </blockquote>
         </div>

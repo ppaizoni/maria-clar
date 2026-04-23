@@ -20,9 +20,9 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container-narrow text-center px-4 py-20 md:py-32">
+      <div className="relative z-10 container-narrow text-center py-24 md:py-32">
         <div className="max-w-3xl mx-auto">
-          <h1 className="font-display text-3xl sm:text-display-sm md:text-display lg:text-display-lg text-foreground mb-5 animate-fade-in-up">
+          <h1 className="font-display text-3xl sm:text-4xl md:text-display lg:text-display-lg text-foreground mb-5 animate-fade-in-up">
             Zeit für Klarheit und Entwicklung
           </h1>
 
@@ -39,7 +39,7 @@ const HeroSection = () => {
               size="lg"
               variant="sage"
               onClick={scrollToContact}
-              className="group"
+              className="group w-full sm:w-auto"
             >
               Kennenlerntelefonat vereinbaren
             </Button>
@@ -47,6 +47,7 @@ const HeroSection = () => {
               size="lg"
               variant="outline"
               onClick={() => document.getElementById("leistungen")?.scrollIntoView({ behavior: "smooth" })}
+              className="w-full sm:w-auto"
             >
               Mehr erfahren
             </Button>

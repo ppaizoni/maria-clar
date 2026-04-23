@@ -28,7 +28,7 @@ const Datenschutz = () => {
               <p>
                 Mag. Maria Clar<br />
                 Dürrgrabenweg 21, 8045 Graz<br />
-                E-Mail: <a href="mailto:info@mariaclar.at" className="hover:text-foreground transition-colors">info@mariaclar.at</a>
+                E-Mail: <a href="mailto:office@mariaclar.at" className="hover:text-foreground transition-colors">office@mariaclar.at</a>
               </p>
             </div>
 
@@ -105,8 +105,8 @@ const Datenschutz = () => {
               </ul>
               <p className="mt-2">
                 Zur Ausübung Ihrer Rechte wenden Sie sich bitte an:{" "}
-                <a href="mailto:info@mariaclar.at" className="hover:text-foreground transition-colors">
-                  info@mariaclar.at
+                <a href="mailto:office@mariaclar.at" className="hover:text-foreground transition-colors">
+                  office@mariaclar.at
                 </a>
               </p>
             </div>

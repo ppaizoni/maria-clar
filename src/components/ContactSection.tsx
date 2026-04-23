@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, MapPin, Clock, Send } from "lucide-react";
+import { Mail, MapPin, Clock, Send } from "lucide-react";
 import { toast } from "sonner";
 import { z } from "zod";
 
@@ -162,7 +162,7 @@ const ContactSection = () => {
                   name="interest"
                   value={formData.interest}
                   onChange={handleChange}
-                  className="flex h-10 w-full rounded-md border border-input bg-card px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-foreground"
+                  className="flex h-11 w-full rounded-md border border-input bg-card px-3 py-2 text-base md:text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-foreground"
                   aria-describedby={errors.interest ? "interest-error" : undefined}
                 >
                   <option value="">Bitte wählen …</option>
@@ -227,10 +227,10 @@ const ContactSection = () => {
                   <div>
                     <p className="font-medium text-foreground">E-Mail</p>
                     <a
-                      href="mailto:info@mariaclar.at"
+                      href="mailto:office@mariaclar.at"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      info@mariaclar.at
+                      office@mariaclar.at
                     </a>
                   </div>
                 </div>

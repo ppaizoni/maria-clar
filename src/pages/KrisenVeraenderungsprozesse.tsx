@@ -20,7 +20,7 @@ const KrisenVeraenderungsprozesse = () => {
             <p className="text-primary font-medium tracking-wide uppercase text-sm mb-3">Schwerpunkt</p>
             <h1 className="font-display text-display-sm md:text-display text-foreground mb-6">Krisen & Veränderungsprozesse</h1>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
-              <p>Lebenskrisen, Umbrüche oder belastende Situationen können uns aus dem Gleichgewicht bringen. In diesen Phasen biete ich dir einen sicheren Raum, um Gedanken zu ordnen, Gefühle zu verstehen und neue Perspektiven zu entwickeln. Ziel ist es, Stabilität zu finden und gestärkt aus der Situation hervorzugehen.</p>
+              <p>Lebenskrisen, Umbrüche oder belastende Situationen können uns aus dem Gleichgewicht bringen. In diesen Phasen biete ich Ihnen einen sicheren Raum, um Gedanken zu ordnen, Gefühle zu verstehen und neue Perspektiven zu entwickeln. Ziel ist es, Stabilität zu finden und gestärkt aus der Situation hervorzugehen.</p>
             </div>
           </div>
           <div className="grid sm:grid-cols-3 gap-6 mt-12">
@@ -42,7 +42,7 @@ const KrisenVeraenderungsprozesse = () => {
             <h3 className="font-display text-xl text-foreground mb-3">Bereit für den ersten Schritt?</h3>
             <p className="text-muted-foreground mb-6">Das Kennenlerntelefonat ist unverbindlich und kostenlos. Das erste Beratungsgespräch ist kostenpflichtig.</p>
             <Button size="lg" variant="sage" asChild>
-              <a href="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</a>
+              <Link to="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</Link>
             </Button>
           </div>
         </div>

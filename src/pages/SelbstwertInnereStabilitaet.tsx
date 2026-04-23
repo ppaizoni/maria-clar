@@ -20,7 +20,7 @@ const SelbstwertInnereStabilitaet = () => {
             <p className="text-primary font-medium tracking-wide uppercase text-sm mb-3">Schwerpunkt</p>
             <h1 className="font-display text-display-sm md:text-display text-foreground mb-6">Selbstwert & innere Stabilität</h1>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
-              <p>Ein stabiler Selbstwert ist die Grundlage für viele Lebensbereiche. Ich begleite dich dabei, Selbstzweifel zu erkennen, innere Blockaden zu lösen und einen liebevolleren Umgang mit dir selbst zu entwickeln. So kannst du mehr Vertrauen in dich gewinnen und deine Stärken bewusst nutzen.</p>
+              <p>Ein stabiler Selbstwert ist die Grundlage für viele Lebensbereiche. Ich begleite Sie dabei, Selbstzweifel zu erkennen, innere Blockaden zu lösen und einen liebevolleren Umgang mit sich selbst zu entwickeln. So können Sie mehr Vertrauen in sich gewinnen und Ihre Stärken bewusst nutzen.</p>
             </div>
           </div>
           <div className="grid sm:grid-cols-3 gap-6 mt-12">
@@ -42,7 +42,7 @@ const SelbstwertInnereStabilitaet = () => {
             <h3 className="font-display text-xl text-foreground mb-3">Bereit für den ersten Schritt?</h3>
             <p className="text-muted-foreground mb-6">Das Kennenlerntelefonat ist unverbindlich und kostenlos. Das erste Beratungsgespräch ist kostenpflichtig.</p>
             <Button size="lg" variant="sage" asChild>
-              <a href="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</a>
+              <Link to="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</Link>
             </Button>
           </div>
         </div>

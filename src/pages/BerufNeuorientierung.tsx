@@ -20,7 +20,7 @@ const BerufNeuorientierung = () => {
             <p className="text-primary font-medium tracking-wide uppercase text-sm mb-3">Schwerpunkt</p>
             <h1 className="font-display text-display-sm md:text-display text-foreground mb-6">Beruf & Neuorientierung</h1>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
-              <p>Berufliche Fragen können belastend sein – ob es um Unzufriedenheit, Veränderungswünsche oder neue Perspektiven geht. Gemeinsam erarbeiten wir Klarheit über deine Ziele, Stärken und Möglichkeiten, damit du stimmige Entscheidungen treffen und deinen eigenen beruflichen Weg gehen kannst.</p>
+              <p>Berufliche Fragen können belastend sein – ob es um Unzufriedenheit, Veränderungswünsche oder neue Perspektiven geht. Gemeinsam erarbeiten wir Klarheit über Ihre Ziele, Stärken und Möglichkeiten, damit Sie stimmige Entscheidungen treffen und Ihren eigenen beruflichen Weg gehen können.</p>
             </div>
           </div>
           <div className="grid sm:grid-cols-3 gap-6 mt-12">
@@ -42,7 +42,7 @@ const BerufNeuorientierung = () => {
             <h3 className="font-display text-xl text-foreground mb-3">Bereit für den ersten Schritt?</h3>
             <p className="text-muted-foreground mb-6">Das Kennenlerntelefonat ist unverbindlich und kostenlos. Das erste Beratungsgespräch ist kostenpflichtig.</p>
             <Button size="lg" variant="sage" asChild>
-              <a href="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</a>
+              <Link to="/#kontakt">Jetzt Kennenlerntelefonat vereinbaren</Link>
             </Button>
           </div>
         </div>

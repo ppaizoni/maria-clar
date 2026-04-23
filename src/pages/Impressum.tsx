@@ -29,8 +29,8 @@ const Impressum = () => {
               <p>Dürrgrabenweg 21<br />8045 Graz</p>
               <p>
                 E-Mail:{" "}
-                <a href="mailto:info@mariaclar.at" className="hover:text-foreground transition-colors">
-                  info@mariaclar.at
+                <a href="mailto:office@mariaclar.at" className="hover:text-foreground transition-colors">
+                  office@mariaclar.at
                 </a>
               </p>
             </div>
