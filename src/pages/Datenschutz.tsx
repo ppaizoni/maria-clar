@@ -60,16 +60,21 @@ const Datenschutz = () => {
             </div>
 
             <div className="space-y-2 text-muted-foreground leading-relaxed">
-              <p className="font-semibold text-foreground">3. Hosting – Cloudflare Pages</p>
+              <p className="font-semibold text-foreground">3. Hosting – IONOS</p>
               <p>
-                Diese Website wird über Cloudflare Pages (Cloudflare Inc., 101 Townsend St.,
-                San Francisco, CA 94107, USA) gehostet. Cloudflare ist unter dem
-                EU-US Data Privacy Framework zertifiziert, womit ein angemessenes
-                Datenschutzniveau gewährleistet ist. Beim Aufruf der Website werden
-                technisch bedingt IP-Adressen und Zugriffsdaten durch Cloudflare verarbeitet.
-                Weitere Informationen:{" "}
-                <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors underline">
-                  cloudflare.com/privacypolicy
+                Diese Website wird über IONOS Deploy Now der IONOS SE,
+                Elgendorfer Straße 57, 56410 Montabaur, Deutschland gehostet.
+                Als Anbieter mit Sitz in der EU verarbeitet IONOS personenbezogene
+                Daten auf Grundlage der DSGVO. Beim Aufruf der Website werden
+                technisch bedingt IP-Adressen und Zugriffsdaten (Server-Logs)
+                durch IONOS verarbeitet, um den Betrieb und die Sicherheit der
+                Website zu gewährleisten.
+                {" "}
+                <span className="font-medium text-foreground">Rechtsgrundlage:</span>{" "}
+                Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse am sicheren
+                Betrieb der Website). Weitere Informationen:{" "}
+                <a href="https://www.ionos.at/terms-gtc/terms-privacy" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors underline">
+                  ionos.at/terms-gtc/terms-privacy
                 </a>
               </p>
             </div>

@@ -7,7 +7,7 @@ Website für Maria Clar, zertifizierte Lebens- und Sozialberaterin.
 - React 18 + TypeScript
 - Vite
 - Tailwind CSS + shadcn/ui
-- Cloudflare Pages
+- IONOS Deploy Now (Apache, SPA-Routing via public/.htaccess)
 
 ## Lokale Entwicklung
 
