@@ -27,7 +27,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-base md:text-xl lg:text-2xl text-muted-foreground leading-relaxed mb-3 animate-fade-in-delay">
-            Psychologische Beratung, Meditation und Coaching
+            Psychologische Beratung, Mediation und Coaching
           </p>
 
           <p className="text-lg md:text-2xl lg:text-3xl font-display text-foreground mb-8 animate-fade-in-delay">
