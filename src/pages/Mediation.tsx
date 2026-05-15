@@ -1,10 +1,10 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Flower2, Sun, Wind } from "lucide-react";
+import { ArrowLeft, Scale, Users, MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const Meditation = () => {
+const Mediation = () => {
   return (
     <main className="min-h-screen">
       <Navigation />
@@ -26,26 +26,27 @@ const Meditation = () => {
               Methode
             </p>
             <h1 className="font-display text-display-sm md:text-display text-foreground mb-6">
-              Meditation
+              Mediation
             </h1>
 
             <div className="space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                Meditation und Achtsamkeitspraxis sind kraftvolle Werkzeuge, um innere Ruhe,
-                Klarheit und ein tieferes Verständnis für sich selbst zu entwickeln.
-                Im hektischen Alltag verlieren wir oft den Kontakt zu uns selbst –
-                Meditation hilft dabei, wieder anzukommen.
+                Mediation ist ein strukturiertes, freiwilliges Verfahren zur außergerichtlichen
+                Konfliktlösung. Als zertifizierte Mediatorin begleite ich Menschen dabei,
+                festgefahrene Konflikte konstruktiv zu lösen – respektvoll, vertraulich und
+                auf Augenhöhe.
               </p>
               <p>
-                In meiner Begleitung lernen Sie verschiedene Meditationstechniken kennen
-                und entwickeln eine persönliche Praxis, die zu Ihrem Leben passt.
-                Achtsamkeit bedeutet, den gegenwärtigen Moment bewusst wahrzunehmen –
-                ohne Bewertung und mit freundlicher Aufmerksamkeit.
+                Im Mittelpunkt steht nicht das Recht haben, sondern das Verstehen:
+                Was steckt wirklich hinter dem Konflikt? Was brauchen die Beteiligten?
+                Ich schaffe einen sicheren Rahmen, in dem echte Gespräche möglich werden
+                und gemeinsame Lösungen entstehen können.
               </p>
               <p>
-                Meditation kann als eigenständige Praxis oder begleitend zur Beratung
-                und zum Coaching eingesetzt werden. Sie stärkt Ihre innere Stabilität
-                und unterstützt nachhaltige Veränderungsprozesse.
+                Mediation eignet sich für Konflikte im privaten Umfeld, in Partnerschaften,
+                Familien, im Beruf oder zwischen Unternehmen. Sie ist oft schneller, günstiger
+                und nachhaltiger als ein gerichtliches Verfahren – und stärkt langfristig
+                die Beziehung zwischen den Beteiligten.
               </p>
             </div>
           </div>
@@ -53,9 +54,9 @@ const Meditation = () => {
           {/* Features */}
           <div className="grid sm:grid-cols-3 gap-6 mt-12">
             {[
-              { icon: Flower2, title: "Achtsamkeitstraining", text: "Techniken für mehr Präsenz und innere Ruhe im Alltag." },
-              { icon: Sun, title: "Selbstreflexion", text: "Den eigenen Gedanken und Gefühlen mit Abstand begegnen." },
-              { icon: Wind, title: "Stressreduktion", text: "Wirksame Methoden zur Entspannung und Regeneration." },
+              { icon: Scale, title: "Neutrale Vermittlung", text: "Als allparteiliche Mediatorin unterstütze ich alle Beteiligten gleichermaßen." },
+              { icon: Users, title: "Gemeinsame Lösungen", text: "Ergebnisse, die von allen Seiten getragen und akzeptiert werden." },
+              { icon: MessageCircle, title: "Offener Dialog", text: "Ein geschützter Raum für ehrliche Gespräche und echtes Zuhören." },
             ].map((item, i) => (
               <div key={i} className="bg-card p-6 rounded-xl border border-border">
                 <div className="p-3 bg-sage-light rounded-lg w-fit mb-4">
@@ -88,4 +89,4 @@ const Meditation = () => {
   );
 };
 
-export default Meditation;
+export default Mediation;

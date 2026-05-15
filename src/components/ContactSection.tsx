@@ -169,7 +169,7 @@ const ContactSection = () => {
                   <option value="">Bitte wählen …</option>
                   <option value="Beratung">Beratung</option>
                   <option value="Coaching">Coaching</option>
-                  <option value="Meditation">Meditation</option>
+                  <option value="Mediation">Mediation</option>
                   <option value="Allgemeine Anfrage">Allgemeine Anfrage</option>
                 </select>
                 {errors.interest && (

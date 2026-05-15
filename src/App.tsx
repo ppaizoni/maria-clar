@@ -9,7 +9,7 @@ import NotFound from "./pages/NotFound";
 import UeberMich from "./pages/UeberMich";
 import Beratung from "./pages/Beratung";
 import Coaching from "./pages/Coaching";
-import Meditation from "./pages/Meditation";
+import Mediation from "./pages/Mediation";
 import PersoenlicheEntwicklung from "./pages/PersoenlicheEntwicklung";
 import BeziehungKommunikation from "./pages/BeziehungKommunikation";
 import SelbstwertInnereStabilitaet from "./pages/SelbstwertInnereStabilitaet";
@@ -33,7 +33,7 @@ const App = () => (
           <Route path="/ueber-mich" element={<UeberMich />} />
           <Route path="/beratung" element={<Beratung />} />
           <Route path="/coaching" element={<Coaching />} />
-          <Route path="/meditation" element={<Meditation />} />
+          <Route path="/mediation" element={<Mediation />} />
           <Route path="/persoenliche-entwicklung" element={<PersoenlicheEntwicklung />} />
           <Route path="/beziehung-kommunikation" element={<BeziehungKommunikation />} />
           <Route path="/selbstwert-innere-stabilitaet" element={<SelbstwertInnereStabilitaet />} />
